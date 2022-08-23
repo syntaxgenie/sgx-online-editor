@@ -12,12 +12,12 @@ import "firebase/functions";
 import { BrowserRouter } from "react-router-dom";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBWwQ_Q6MvWLHgBm9mRGvVX6hvgV8wpTUg",
-  authDomain: "webgpu-editor.firebaseapp.com",
-  projectId: "webgpu-editor",
-  storageBucket: "webgpu-editor.appspot.com",
-  messagingSenderId: "425550566157",
-  appId: "1:425550566157:web:4b029a30d3c0b42f539644",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
