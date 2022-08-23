@@ -1,0 +1,32 @@
+.image-button-wrapper{
+    display: flex;
+    height: 80px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    align-items: center;
+    background: rgb(57,77,88);
+    box-shadow: 0 0 0 1px rgba(16,22,26,0.4);
+    background: linear-gradient(180deg, rgba(57,77,88,1) 0%, rgba(38,60,72,1) 100%);
+    &:hover{
+        box-shadow: 0 0 0 1px rgba(16,22,26,0.4);
+    background: linear-gradient(180deg, rgb(50, 69, 78) 0%, rgb(33, 53, 63) 100%);
+    }
+    
+    .ib-image{
+        height: 80px;
+        width: 80px;
+        padding: 20px;
+        background-color: rgb(238, 238, 238);
+        img{
+            height: 100%;
+            border-radius: 10px;
+        }
+      
+    }
+    .ib-text{
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: 700;
+    }
+}

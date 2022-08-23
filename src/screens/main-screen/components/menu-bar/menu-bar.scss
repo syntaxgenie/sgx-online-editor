@@ -1,0 +1,38 @@
+.dn-and-un-wrapper{
+    .display-name{
+        display: block;
+        font-size: 16px;
+    }
+    .user-name{
+        display: block;
+        font-size: 12px;
+        text-align: right;
+    }
+}
+
+.notification-button{
+    font-size: 26px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    transition-property: transform;
+    transition-duration: 200ms;
+    svg{
+
+    }
+    .n-label{
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        font-size: 10px;
+        padding: 5px;
+        background-color: red;
+        border-radius: 50%;
+        min-height: 22px;
+        min-width: 22px;
+        text-align: center;
+    }
+    
+}

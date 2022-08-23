@@ -1,0 +1,95 @@
+.editor-toolbar{
+    background-color: rgb(39, 65, 79);
+    height: 35px;
+    width: 100%;
+    border: solid 1px #425B68;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+    .etc-tabs{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        align-content: center;
+        .editor-tab{
+            height: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 14px;
+            background-color: #243945;
+            border-right: solid 1px #425B68;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+            svg{
+                font-size: 20px;
+                margin-left: 20px;
+                padding: 2px;
+
+                &:hover{
+                    background-color: #536772;
+                    border-radius: 50%;
+                }
+            }
+
+            &:hover{
+                background-color: #425b6870;
+            }
+        }
+
+        .editor-tab-active{
+            height: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 14px;
+            background-color: #5367726e;
+            border-right: solid 1px #425B68;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+
+
+            svg{
+                font-size: 20px;
+                margin-left: 20px;
+                padding: 2px;
+
+                &:hover{
+                    background-color: #536772;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .etc-new-file-btn{
+            padding-top: 4px;
+            height: 100%;
+            width: 35px;
+            text-align: center;
+            background-color: #243945;
+            font-size: 18px;
+            font-weight: bold;
+            border-right: solid 1px #425B68;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #425B68;
+            }
+        }
+    }
+
+    .eac-actions{
+        .eac-a-item{
+            margin-left: 10px;
+            margin-right: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: rgb(143,160,172);
+        }
+    }
+}

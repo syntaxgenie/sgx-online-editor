@@ -1,0 +1,48 @@
+.page-header{
+    background-color: #27414f;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 0 1px rgba(16,22,26,0.4);
+    h4{
+        font-size: 28px;
+        color: #D8E1E8;
+    }
+}
+
+.home-wrapper{
+    background-color: #26333e;
+    // background-image: url('../../resources/images/back-home.png');
+    
+    height: 100vh;
+
+.b-image{
+    background-image: url('../../../resources/images/back-login.png');
+    background-size: cover;
+    background-position-y: 20px;
+}
+   
+.home-form-container{
+    text-align: center;
+    .home-form{
+        position: relative;
+        margin-top: 10%;
+        width: 100%;
+        box-shadow: 0 0 0 1px rgba(16,22,26,0.4);
+        background-color: #27414f ;
+        padding: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        // border-radius: 5px;
+        .hcard-icon{
+            position: absolute;
+            top: 25px;
+            left: 25px;
+        }
+    }
+
+}
+    
+}

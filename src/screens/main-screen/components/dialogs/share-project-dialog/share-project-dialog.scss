@@ -1,0 +1,35 @@
+.project-share-content{
+   padding: 20px;
+
+   .project-infor{
+       padding-bottom: 5px;
+       .project-id{
+        span{
+            color: yellow;
+        }
+    }
+ 
+    .copy-button{
+        cursor: pointer;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+   }
+   .add-users-container{
+       padding-top: 10px;
+    .nf-input{
+        display: flex;
+    }
+    .user-tags-wrapper{
+        margin-top: 20px;
+ 
+        .user-tag{
+            margin: 2px;
+        }
+    }
+ 
+    
+   }
+   
+}

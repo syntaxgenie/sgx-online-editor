@@ -1,0 +1,15 @@
+.new-folder-dialog-content{
+   display: flex;
+    padding: 5px;
+    width: 374px;
+   .nf-input{
+       width: 300px;
+   }
+
+   .actions{
+       display: flex;
+       align-items: center;
+       align-content: center;
+       justify-content: space-between;
+   }
+}

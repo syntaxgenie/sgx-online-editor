@@ -1,0 +1,26 @@
+.share-with-me-project-card{
+    padding: 20px;
+    margin: 5px;
+    background: linear-gradient(180deg, #1D2F39 0%, rgba(29, 47, 57, 0) 100%);
+    border: 1px solid #546A77;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    .share-with-me-project-name{
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .share-with-me-project-card-actions{
+        font-size: 26px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+
+        svg{
+            cursor: pointer;
+        }
+    }
+}

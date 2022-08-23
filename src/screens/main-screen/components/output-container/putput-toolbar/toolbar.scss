@@ -1,0 +1,16 @@
+.output-toolbar{
+    background-color: rgb(39, 65, 79);
+    height: 35px;
+    width: 100%;
+    border: solid 1px #425B68;
+    // border-left: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 15px;
+    .ot-item{
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
+}

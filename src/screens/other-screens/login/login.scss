@@ -1,0 +1,43 @@
+.page-header{
+    background-color: #27414f;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 0 1px rgba(16,22,26,0.4);
+    h4{
+        font-size: 28px;
+        color: #D8E1E8;
+    }
+}
+
+.login-wrapper{
+    background-color: #26333e;
+    // background-image: url('../../resources/images/back-login.png');
+    
+    height: 100vh;
+
+.b-image{
+    background-image: url('../../../resources/images/back-login.png');
+    background-size: cover;
+    background-position-y: 20px;
+}
+   
+.login-form-container{
+    display: flex;
+    
+    justify-content: center;
+    .login-form{
+        margin-top: 10%;
+        height: 500px;
+        width: 600px;
+        box-shadow: 0 0 0 1px rgba(16,22,26,0.4);
+        background-color: #27414f ;
+        padding: 70px;
+        border-radius: 5px;
+    }
+
+}
+    
+}
